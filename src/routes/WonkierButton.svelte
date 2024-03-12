@@ -5,7 +5,7 @@
 <Container>
     <div data-testid="text-input" contenteditable />
 
-    <button data-testid="lock-colors"> </button>
+    <button data-testid="lock-button"> </button>
 
     <button data-testid="wonkier-button"> </button>
 
