@@ -19,7 +19,7 @@ it('should render the correct fizzbuzz classes when the text content of div is c
     render(WonkierButton);
     const button = screen.getByTestId('wonkier-button');
     const div = screen.getByTestId('text-input');
-    const lock = screen.getByTestId('lock-colors');
+    const lock = screen.getByTestId('lock-button');
 
     expect(button.textContent).toStrictEqual('FizzBuzz 0');
 
